@@ -1,0 +1,1123 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Learning Objective 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="identify-and-analyse.html">Identify & Analyse</a></li>
+							<li><a href="scan-results-and-review.html">Scan Results & Review</a></li>
+							<li><a href="pen-testing-tools-review.html">Pen Testing tools Review</a></li>
+							<li><a href="reflective-piece-and-conclusion.html">Reflective Piece & Conclusion</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="about.html" class="button fit">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Identify & Analyses - [Unit 1 & 7]</h1>
+							</header>
+							<div class="content">
+								<p>Identify and analyse security risks and vulnerabilities in IT network systems and determine appropriate methodologies, tools and techniques to manage and/or solve them.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<section>
+							<div class="inner">
+								<h3 id="content">Collaborative Learning Discussion 1 - An analysis</h3>
+								<p>This collaborative discussion required us to assess Compromising a Medical Mannequin. Healthcare Information Systems and Technology (Sighealth). By Glisson, W., Andel, T., McDonald, T., Jacobs, M., Campbell, M. & Mayr, J. (2015) . 
+									<br> <br> The healthcare industry by nature is reliant on technology and medical devices are as susceptible to threats and vulnerabilities as any other device that is dependent on the use of the internet. 
+									<br> <br> A recurring threat based on this paper is the risk of a brute force attack which in this context may be more likely if the as the medical mannequin front end platform is browser based. Therefore if the user interface is poorly designed this creates a vulnerability and potential entry point for a cyber-attack (Luo & Sogyazi , 2019). To mitigate against this I would recommend implementing stronger authentication methods using the theory of least privileges to ensure that only appropriate medical professionals can access the most critical configurations.  Furthermore, this article highlighted the risks around physical security which can be often overlooked leading to malicious tampering of devices. I would mitigate against this by enforcing strict log out policies for computers which have access to the privileged medical data to protect confidentiality. 
+									<br> <br> The methods mentioned above are both stemming from the CIA Triad which priorities Confidentially, Integrity and Availability when addressing information security (ForcePoint, 2018) and it is important to follow these guidelines which highlight practises in the industry. 
+								</p>
+
+								<h3 class="content">References:</h3>
+								<ol>
+									<li>ForcePoint (2018). What is the CIA Triad? [online] Forcepoint. Available at: <span><a href="https://www.forcepoint.com/cyber-edu/cia-triad">https://www.forcepoint.com/cyber-edu/cia-triad</a></span></li>
+									<li>Koh, E.B., Oh, J. and Im, C., 2014, March. A study on security threats and dynamic access control technology for BYOD, smart-work environments. In Proceedings of the International MultiConference of Engineers and Computer Scientists (Vol. 2, pp. 1-6).</li>
+									<li>Luo, C., Soygazi, H., Janicke, H. and He, Y., 2019, July. Security Defense Strategy for Intelligent Medical Diagnosis Systems (IMDS). In 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) (pp. 3454-3457). IEEE.</li>
+								</ol>
+
+
+								<h3 class="cotent">Kali Linux & Nessus -  An analysis</h3>
+								<p>For the purposes of evaluating Kali Linux and Nessus as tools for vulnerability scanning, the following articles were read and analysed.</p>
+
+								<h3 class="content">References:</h3>
+								<ol>
+									<li>Leroux, S. (2020) The Kali Linux Review You Must Read Before You Start Using It. It's FOSS. Available from: <span><a href="https://itsfoss.com/kali-linux-review/">https://itsfoss.com/kali-linux-review/</a></span></li>
+									<li>Bhatt, D. (2018) Modern Day Penetration Testing Distribution Open Source Platform - Kali Linux - Study Paper. International Journal of Scientific & Technology Research 7(4): 233-237</li>
+									<li>Bhingardeve, N. & Franklin, S. (2018) A Comparison Study of Open Source Penetration Testing Tools. International Journal of Trend in Scientific Research and Development 2(4): 2595-2597.</li>
+								</ol>
+
+								<h4><i>Please see below for the outcomes of the discussion.</i></h4>
+
+								<p><strong>What does the article teach you about carrying out vulnerability scans using Kali?</strong></p>
+								<p>Kali Linux has an array of tools which can come pre-packaged ready for use depending on the end users’ requirements. The default settings and applications installed on a standard Kali Linux system are all focused on security.</p>
+
+								<p><strong>What issues might you encounter and how would you overcome them?</strong></p>
+								<ol>
+									<li>The default “root” user level has the ultimate level of privilege. This means that you can do whatever you like. This could inevitably cause issues as if a user isn’t careful, they can make edits or deletions to critical files and settings that will consequently render their system unusable.  A way to rectify this is to ensure users practice in a virtualised environment.</li>
+									<li>On most Debian systems a part of the standard installation there are certain services that would come enabled such as email reader. This can be rectified by enabling the required packages so it has to be done manually.</li>
+								</ol>
+
+								<p><strong>How do their results compare with your initial evaluation?</strong></p>
+								<p><strong>What do you think of their criteria?</strong></p>
+
+								<p>A Comparison Study of Open-Source Penetration Testing Tools deems Nmap on Kali Linux to be the best tool available for vulnerability testing. It also provides a solution to the issues raised above by introducing the option to use Zenmap. Zenmap is a GUI therefore it provides an easier to navigate access point for users with all technical experience and ability.
+									<br><br> Although the criteria they used to assess is comprehensive, it is quite subjective as they did not specify the factors, they took into consideration to assess a tool as “flexible” or “portable”. Another professional could use the same criteria to assess the tools and have a completely different evaluation. Furthermore, there is some overlap with the criteria which could be misinterpreted without clear definition. Ie “acclaimed” and “popular”.
+									 
+									<br><br> <strong>“Kali Linux is a well-respected collection of open source pen testing tools, including metasploit, nmap, wireshark and sqlmap amongst many others. It has the benefit of being available as a ‘live distro’ which means that there is no requirement to install it – it will run from a DVD or a USB/ thumb drive. For these reasons, we recommend that Kali Linux is the tool of choice for this assignment.” (UoEO Computing Team, 2020.)</strong>
+									<br><br> Based on your evaluation in the previous session and the articles above, consider the recommendation given above:
+								</p>
+
+								<p><strong>What are the pros and cons of using Kali Linux vs. Nessus?</strong></p>
+								<p>A main strength of Nessus is that due to its age it has the world’s largest vulnerability and configuration checks which are continuously updated (Tenable, 2017) . This ensures the inputs are as speedy and as accurate as possible. Systems are measured against the latest industry systems and are measured a standard for speed and accuracy. In the same breath, this could also be viewed as a con as it will require constant updates to ensure the most current vulnerabilities are mitigated against, thus taking away from the low maintenance nature. Kali Linux is, however.    more user friendly and the scan can be done easily and more quickly. Also, it is easy to set up the scan with the output formatted in a way that is readable to all.
+									<br><br> To conclude, deciding which tool is best to use is not a black or white matter. We have to take into consideration user and business priorities, budget time scales and what the ultimate outcome is that we want to achieve.
+								</p>
+
+								<h3 class="content">References:</h3>
+								<ol>
+									<li>Tenable (2017). Nessus Professional Vulnerability Scanner. [online] Available at: <span><a href="https://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/datasheets/NessusPro-(DS)-EN-v4.pdf">https://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/datasheets/NessusPro-(DS)-EN-v4.pdf</a></span></li>
+								</ol>
+							</div>
+						</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Vulnerability Scanning</h2>
+									</header>
+									<p>We performed vulnerability scanning on our assigned website using the Following Kali Linux Tools:</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>OWASP</h3>
+											</header>
+											<p>Zed Attack Proxy (ZAP) an open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is used specifically for testing web applications. It is a “man-in-the-middle proxy.” It stands between the tester’s browser and the web application so that it can intercept and inspect messages sent between browser and web application, modify the contents if needed, and then forward those packets on to the destination.</p>
+											<ul class="actions">
+												<li><a href="https://www.zaproxy.org/getting-started" target="_blank" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Nmap</h3>
+											</header>
+											<p> This is a tool used for network discovery and port scanning. Some of its features include Host Discovery, Port Scan, Service and OS fingerprinting, and Basic Vulnerability detection.</p>
+											<ul class="actions">
+												<li><a href="https://pentest-tools.com/blog/nmap-port-scanner" target="_blank" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>OpenVAS</h3>
+											</header>
+											<p>OpenVAS is a new iteration of the Nessus scanner, used for assessing the network perimeter and evaluating the external security posture of a site. The scanner starts by detecting the open ports and services, and then continues by querying a database for known vulnerabilities which may affect the specific software.</p>
+											<ul class="actions">
+												<li><a href="https://pentest-tools.com/network-vulnerability-scanning/network-security-scanner-online-openvas" target="_blank" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<!-- <section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Consolidated summary of results</h2>
+									</header>
+									<ul>
+										<li>What Operating System does the web site utilise? <span class="answer">No Best matching OS identified</span></li>
+										<li>What web server software is it running? <span class="answer">Apache</span></li>
+										<li>Is it running a CMS (Wordpress, Drupal, etc)? <span class="answer">NONE found</span></li>
+										<li>What protection does it have (CDN, Proxy, Firewall)? <span class="answer">None found</span></li>
+										<li>Where is it hosted? -The website is externally hosted? <span class="answer">The website is externally hosted – Host ID 52.21.112.242</span></li>
+										<li>Does it have any open ports? <span class="answer">There was 1 identified open port - Port 80 tcp</span></li>
+										<li>Network distance between scanner and target? <span class="answer">10 according to Traceroute</span></li>
+										<li>What versions of software is it using? Are these patched so that they are up to date? <span class="answer">Unable to identify</span></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#fourth" class="button next scrolly">See Vulnerabilities</a></li>
+									</ul>
+								</div>
+							</section> -->
+
+						<!-- Fourth -->
+						<section id="fourth">
+							<div class="inner">
+								<header class="major">
+									<h2>Vulnerabilities Table</h2>
+								</header>
+								<p>Does the site have any known vulnerabilities? Please see the table below.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Level</th>
+											<th>Number of Instances</th>
+											<th>Proposed Mitigation</th>
+											<th>Comments</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td>Vulnerable JS Library</td>
+											<td>This vulnerability is to do with current version 1.8.3 of the JS Library.</td>
+											<td>Medium</td>
+											<td>1</td>
+											<td>Upgrade version.</td>
+											<td>Found in OWASP Report</td>
+										</tr>
+
+										<tr>
+											<td>Options Header Not Set</td>
+											<td>The X frame header is not included in the HTTP response to protect against 'ClickJacking' attacks.</td>
+											<td>Medium</td>
+											<td>4</td>
+											<td>As most modern Web browsers support the X-Frame-Options HTTP header. Therefore, it must be set on all web pages returned by the site.
+												<br><br>If the page is to be framed only by pages on your server (e.g., it's part of a FRAMESET) then use SAMEORIGIN.
+												<br><br>If the page isn’t expected to be framed you, you should use DENY. As ALLOW-FROM allows specific websites to frame the web page in supported web browsers.
+											</td>
+											<td>Found in OWASP Report</td>
+										</tr>
+
+										<tr>
+											<td>Absence of Anti-CSRF Tokens</td>
+											<td>No Anti-CSRF tokens were found in a HTML submission form.
+												<br><br> This makes the webpage susceptible to A cross-site request forgery.
+												<br><br> This is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site.
+											</td>
+											<td>Low</td>
+											<td>2</td>
+											<td><strong>Architecture and Design</strong> - Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid. For example, use anti-CSRF packages such as the OWASP CSRFGuard.
+												<br> <br> <strong>Implementation</strong> - Ensure that your application is free of cross-site scripting issues, because most CSRF defences can be bypassed using attacker-controlled script.
+												<br> <br> <strong>Architecture and Design</strong> - Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330). Note that this can be bypassed using XSS. Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation. Note that this can be bypassed using XSS. Use the ESAPI Session Management control. This control includes a component for CSRF. Do not use the GET method for any request that triggers a state change.
+												<br> <br> <strong>Implementation</strong> - Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referrer for privacy reasons.
+											</td>
+											<td>Found in OWASP Report</td>
+										</tr>
+
+										<tr>
+											<td>Cross-Domain JavaScript Source File Inclusion</td>
+											<td>The page includes one or more script files from a third-party domain.</td>
+											<td>Low</td>
+											<td>6</td>
+											<td>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</td>
+											<td>Found in OWASP Report</td>
+										</tr>
+
+										<tr>
+											<td>X-Content-Type-Options Header Missing</td>
+											<td>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIMEsniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</td>
+											<td>Low</td>
+											<td>5</td>
+											<td>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages. If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</td>
+											<td>Found in OWASP Report</td>
+										</tr>
+
+										<tr>
+											<td>NVT: MacOS X Finder '.DS_Store' Information Disclosure</td>
+											<td>MacOS X creates a hidden file '.DS_Store', in each directory that has been viewed with the 'Finder'. This file contains a list of the contents of the directory, giving an attacker information on the structure and contents of your website.</td>
+											<td>Medium</td>
+											<td>-</td>
+											<td>Workaround Block access to hidden files (starting with a dot) within your web server's configuration</td>
+											<td>-</td>
+										</tr>
+
+										<tr>
+											<td>NVT: TCP timestamps</td>
+											<td>The remote host implements TCP timestamps and therefore allows to compute the uptime.
+												It was detected that the host implements RFC1323/RFC7323.
+												<br><br> 
+												The following timestamps were retrieved with a delay of 1 seconds in-between:
+												<br>
+												<strong>Packet 1:</strong> 1538891221 <br>
+												<strong>Packet 2:</strong> 1538892284
+												<br><br>
+												Impact: The uptime of the remote host can sometimes be computed
+											</td>
+											<td>Medium</td>
+											<td>-</td>
+											<td>Workaround Block access to hidden files (starting with a dot) within your web server's configuration</td>
+											<td>-</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</section>
+
+					</div>
+
+
+					<!-- Banner -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Scan Results and Review - [Unit 6 & 7]</h1>
+							</header>
+							<div class="content">
+								<p>Design and critically appraise computer programs and systems to produce solutions that help manage and audit risk and security issues.</p>
+							</div>
+							<ul class="actions">
+								<li><a href="#main" class="button next scrolly">Get Started</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<section>
+							<div class="inner">
+
+								<h2 id="content">Group Website Scan</h2>
+								<p>Perform a basic scan using standard tools such as ping, traceroute, dig and nslookup. Use these basic tools to compile a list that details the following information</p>
+								<ul>
+									<li>How many hops from your machine to your assigned website? <span class="answer">9 but the host is unreachable.</span></li>
+									<li>Which step causes the biggest delay in the route? <span class="answer">Hop 15</span></li>
+									<li>What is the average duration of that delay? <span class="answer">28 ms</span></li>
+									<li>What are the main nameservers for the website?
+										<span class="answer">ns1-24-us-east-1.ec2-rdns.amazonaws.com | <b>internet address:</b> 205.251.197.231</span>
+										<span class="answer">ns2-24-us-east-1.ec2-rdns.amazonaws.com | <b>internet address:</b> 205.251.198.46</span>
+										<span class="answer">ns3-24-us-east-1.ec2-rdns.amazonaws.com | <b>internet address:</b> 205.251.192.197</span>
+										<span class="answer">ns4-24-us-east-1.ec2-rdns.amazonaws.com | <b>internet address:</b> 205.251.195.169</span>
+									</li>
+									<li>Who is the registered contact? </li>
+									<li>What is the MX record for the website? <span class="answer">There are no MX records for the website.</span></li>
+									<li>Where is the website hosted? <span class="answer">Amazon web services (AWS)</span></li>
+								</ul>
+
+								<h3 id="content">Main Issues:</h3>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/main_issues_1.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+										<!-- Break -->
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><i>PING:</i><span class="image fit"><img src="images/main_issues_2.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+										<!-- Break -->
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><i>Traceroute:</i><span class="image fit"><img src="images/main_issues_3.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+										<!-- Break -->
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><i>Dig:</i><span class="image fit"><img src="images/main_issues_4.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+										<!-- Break -->
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><i>NSlookup:</i><span class="image fit"><img src="images/main_issues_5.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+										<!-- Break -->
+									</div>
+								</div>
+
+							</div>
+						</section>
+
+						<!-- Three -->
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h2>Consolidated summary of results</h2>
+								</header>
+
+								<ul>
+									<li>Did you have any issues or challenges with the scans?</li>
+									<li>How did you overcome them?</li>
+									<li>How will they affect your final report?</li>
+								</ul>
+							</div>
+						</section>
+
+					</div>
+
+
+					<!-- Banner -->
+					<section id="banner" class="style4">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Basic Website Scan - [Unit 4]</h1>
+							</header>
+							<div class="content">
+								<p>Gather and synthesise information from multiple sources (including internet security alerts & warning sites) to aid in the systematic analysis of security breaches and issues.</p>
+							</div>
+							<ul class="actions">
+								<li><a href="#main" class="button next scrolly">Get Started</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<section id="one">
+							<div class="inner">
+								<p>
+									Let’s have a look at our findings of a very basic scan of the host: <a class="color4" href="http://nismphp-env-1.eba-pbpahq7c.us-east-1.elasticbeanstalk.com" target="_blank">http://nismphp-env-1.eba-pbpahq7c.us-east-1.elasticbeanstalk.com</a>
+									which resolves to IP address: <code class="color4">52.203.215.30</code> using <strong>Ping</strong>, <strong>Dig</strong>, <strong>NSLookup</strong>, and <strong>TraceRoute</strong>.
+								</p>
+							</div>
+						</section>
+
+						<section>
+							<div class="inner">
+
+								<h2 id="content" class="color4">Ping:</h2>
+								<p>The name is taken from sonar terminology of sending a pulse of sound and listening for the object's echo underwater, is a network administration utility. Ping utility was first written by Mike Muuss in December 1983 for Ballistic Research Laboratory, now known as the US Army Research Laboratory. Ping utility is used to test reachability of a host and it measures the round-trip time for messages sent from the originating host to a destination on a network.
+									<br><br>Pinging the host’s IP address <code class="color4">52.203.215.30</code> resulted in receiving echoes/replies back from the host as exhibit below:
+								</p>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/scan-1.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+									</div>
+								</div>
+
+								<h3 id="content" class="color4">Security loopholes:</h3>
+								<p>The name is taken from sonar terminology of sending a pulse of sound and listening for the object's echo underwater, is a network administration utility. Ping utility was first written by Mike Muuss in December 1983 for Ballistic Research Laboratory, now known as the US Army Research Laboratory. Ping utility is used to test reachability of a host and it measures the round-trip time for messages sent from the originating host to a destination on a network.
+									<br><br> Ping based DDoS or Ping Flood attacks have been used in the past to bring down high profile websites such as Ebay, Yahoo, and so on, Dr. Sanjeev Kumar (2006).
+								</p>
+
+								<h3 id="content" class="color4">Recommended Mitigation:</h3>
+								<p>It is recommended to block incoming traffic for Internet Control Message Protocol (ICMP) also known as Echo on the Network Firewall by denying TCP and UDP port number 7. If a complete block isn't achievable due to the business or other needs, an ICMP port should only be opened/allowed for a list of limited and trusted network(s).</p>
+
+								<h2 id="content" class="color4">TraceRoute:</h2>
+								<p>The Traceroute program was written by Van Jacobson in 1987 suggested by Steve Deering, Ray Belleville (2017). Traceroute is a computer diagnostic utility that is used to display possible network routes and measure packets in transit delays.
+									<br><br>We conducted traceroute/tracert pointing to host name mentioned above, exhibit below shows the result:
+								</p>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/main_issues_3.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+									</div>
+								</div>
+
+								<h3 id="content" class="color4">Findings Explained:</h3>
+								<ul>
+									<li>Traceroute command initiated using a MacOS device, 64 hops are the maximum number a MacOS device can traceroute</li>
+									<li>About 11 hops replied/echoed</li>
+									<li>All other hops timed-out, time-outs happen very possibly when ICMP traffic is blocked on a device</li>
+									<li>Average packet travel delay was between 28 ms – 30 ms while the longest delay was on hop 15 with 54.496 ms</li>
+								</ul>
+
+
+								<h2 id="content" class="color4">NSLookup, Dig, and Whois:</h2>
+								<p>These are generally tools that investigate Name Servers, Registrars, and so on, directly. This allows network administrators to investigate and troubleshoot issues related mainly to DNS and system administration purposes.</p>
+
+								<h3 id="content" class="color4">Our Findings:</h3>
+								<p>NSLookup, Name Servers observed</p>
+
+								<ul>
+									<li>
+										<code class="color4">ns1-24-us-east-1.ec2-rdns.amazonaws.com</code> | <b>internet address:</b> <code class="color4">205.251.197.231</code>
+									</li>
+									<li>
+										<code class="color4">ns2-24-us-east-1.ec2-rdns.amazonaws.com</code> | <b>internet address:</b> <code class="color4">205.251.198.46</code>
+									</li>
+									<li>
+										<code class="color4">ns3-24-us-east-1.ec2-rdns.amazonaws.com</code> | <b>internet address:</b> <code class="color4">205.251.192.197</code>
+									</li>
+									<li>
+										<code class="color4">ns4-24-us-east-1.ec2-rdns.amazonaws.com</code> | <b>internet address:</b> <code class="color4">205.251.195.169</code>
+									</li>
+								</ul>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/scan-2.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6 color4">Dig:<span class="image fit"><img src="images/scan-3.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+									</div>
+								</div>
+
+								<h2 id="content" class="color4">Whois: Registrars</h2>
+								<p>The URL for this ‘test’ website is registered as a sub-domain under parent-domain elasticbeanstalk.com which is registered to MarkMonitor, Inc. There is no registered contact for the sub-domain, however for the parent-domain, the registered contact is Amazon Technologies.</p>
+
+								<blockquote class="color4">
+									Amazon Technologies, Inc. <br>
+									P.O. Box 8102, <br>
+									Reno, NV, 89507, us <br>
+									hostmaster@amazon.com <br>
+									P: 1-206-266-4064
+								</blockquote>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-3"><span class="image fit"></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/scan-4.png" alt="" /></span></div>
+										<div class="col-3"><span class="image fit"></span></div>
+									</div>
+								</div>
+
+								<h3 id="content" class="color4">Other Observations:</h3>
+								<ul>
+									<li>No MX (Mail-exchange) record was found.</li>
+									<li>No SPF (Sender Policy Framework) record was found.</li>
+								</ul>
+
+								<h3 id="content" class="color4">Other Recommendations:</h3>
+								<p>The website uses protocol HTTP on TCP port 80. Communication between the web browser and the host server over HTTP is unencrypted which means data transited over HTTP network is unsecure and can be intercepted by an attacker. The data can be read, modified and leaked including passwords, secret tokens, credit card information and other sensitive information.
+									<br><br> To mitigate this issue, it is highly recommended to use HTTPS protocol which encrypts communication end to end.
+								</p>
+
+								<h2 id="content" class="color4">References:</h2>
+								<ul>
+									<li>Namburi, P., Sarac, K., & Almeroth, K. (2004) A Ping utility for source specific multicast. Available from: <span class="color4"><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.439.2426&rep=rep1&type=pdf ">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.439.2426&rep=rep1&type=pdf </a></span></li>
+									<li>Kumar, S. (2006) Computers & Security. Ping Attack - How bad is it?: Pages 332-337. Learning Center (2015) What is traceroute and what is it for?. Available from:<span class="color4"><a href="https://www.thousandeyes.com/learning/glossary/traceroute">https://www.thousandeyes.com/learning/glossary/traceroute</a></span></li>
+								</ul>
+							</div>
+						</section>
+
+						<section id="two">
+							<div class="inner">
+								<h2 class="class4">GDPR</h2>
+								<p class="content">The case study discusses the inappropriate storage of an individual’s medical data by their employer. There are a few key principles of the GDPR that this case study highlights such as the Data Minimisation principle. According to the Information Commissioner's Office (2019), Article 5(1)(c) of the GDPR legislation requires personal data held to be relevant and limited based on the initial purpose of the data. In this case the DoJ failed to periodically review the data held, if this step was taken they would have been more likely to notice that the complainants personal information was inappropriately stored. This can also be linked with the storage limitation principle that highlights data must not be held for longer that needed. Finally, the ‘integrity and confidentiality’ principle of the GDPR which reinforces the importance of properly securing data is also relevant.
+
+									<br><br>
+									In this case the data breach was resolved by removing the records from the database in question. The DoJ also provided an apology for the mishap however as the manager responsible for the breach had already left, they couldn’t undertake any further investigation (Data Protection Commission, n.d.).
+
+									<br><br>
+									To mitigate the issues, I would firstly implement a data retention policy which clearly states how long different types of data collected should be kept. In line with this I would also implement a clear data classification policy and make it mandatory for users to categorise the confidentiality level of the information they are about to store before saving any data. In this case study, if the data was marked as highly confidential it would have increased the chance of it being appropriately stored.
+
+									<br><br>
+									I would secondly introduce a biannual review process of data stored to confirm any data no longer needed is disposed of. Finally, I would introduce a logging software that allows the data controller to track who accesses data and when.
+								</p>
+
+								<h2 id="content" class="color4">References:</h2>
+								<ul>
+									<li>Data Protection Commission (n.d.). Case Studies | Data Protection Commission. [online] Case Studies | Data Protection Commission. Available at: <span class="color4"><a href="https://dataprotection.ie/en/pre-gdpr/case-studies#201711">https://dataprotection.ie/en/pre-gdpr/case-studies#201711</a></span></li>
+									<li>Information Commissioner's Office (2019). Principle (c): Data minimisation. [online] Ico.org.uk. Available at: <span class="color4"><a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/data-minimisation/">https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/data-minimisation/</a></span></li>
+								</ul>
+							</div>
+						</section>
+
+					</div>
+
+
+						<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+				<section id="banner" class="style6">
+					<div class="inner">
+						<header class="major">
+							<h1>Reflective Piece & Conclusion - [Unit 6 & 11]</h1>
+						</header>
+						<p>Articulate the legal, social, ethical and professional issues faced by information security professionals.</p>
+					</div>
+				</section>
+
+				<div id="main" class="alt">
+					<section>
+						<div class="inner">
+							<header class="major">
+								<p>Design Document</p>
+							</header>
+							<h3 class="color6 align-center">A DESIGN DOCUMENT/PROPOSAL OF A NETWORK AND INFORMATION SECURITY MANAGEMENT (NISM) ASSESSMENT PROJECT</h3>
+						</div>
+					</section>
+
+					<section id="one">
+						<div class="inner">
+							<h3 id="content" class="color6">Purpose of Assessment:</h3>
+							<p>A vulnerability assessment is a way of identifying security vulnerabilities. An assessment of security procedures which may indicate potential weaknesses and provide appropriate mitigation procedures (Rahalkar, 2018). By utilizing Center for Internet Security (CIS) and International Organization for Standardization (ISO) controls we would aim to reduce and ultimately eliminate weaknesses to an acceptable risk level based on the enterprises risk appetite.</p>
+
+							<h3 id="content" class="color6">Method of Assessment:</h3>
+							<p>A combination of CIS and ISO will be used for vulnerability identification and tailored to the enterprise’s organization or purpose. CIS is an information security risk assessment method that aids enterprises in implementing and assessing their security posture against the CIS controls cybersecurity best practices. CIS methodology is applied to assess configuration of workstations, firewalls, and network devices (CIS.org, 2021). ISO methodology involves implementing a risk assessment that can be frequently reviewed and enhanced to assess and correct, identifying the activities for which standards are used. Once completed one can investigate how these activities, supported using standards, contribute to the creation of value for the enterprise, ISO 27,001 is a standard outlining how any business should handle risk at every level (ISO.org, 2013).</p>
+						
+							<table>
+								<thead>
+									<tr>
+										<th>CIS controls to be used</th>
+										<th>ISO Compliance</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>Inventory and Control of Enterprise Assets</td>
+										<td>Organizational Context</td>
+									</tr>
+
+									<tr>
+										<td>Inventory and Control of Software Assets</td>
+										<td>Leadership</td>
+									</tr>
+
+									<tr>
+										<td>Data Protection</td>
+										<td>Planning</td>
+									</tr>
+
+									<tr>
+										<td>Secure Configuration of Enterprise Assets and Software</td>
+										<td>Support</td>
+									</tr>
+
+									<tr>
+										<td>Account Management</td>
+										<td>Operations</td>
+									</tr>
+
+									<tr>
+										<td>Access Control Management</td>
+										<td>Performance evaluation</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<h3 id="content" class="color6">Tools to be used in this assessment:</h3>
+							<ol>
+								<li><strong>Nmap:</strong> Used to map the networks attack surface, this tool scans for hosts, operating systems, hardware versions, software versions and open port vulnerabilities (Nmap.org 2020).</li>
+								<li>Nessus Vulnerability scanner in conjunction with <strong>Metasploit:</strong> Nessus as a tool checks all computers, servers, and firewalls for open ports and potentially vulnerable software. Metasploit is used to confirm whether or not the reported holes are exploitable (Oracle.com, 2021).</li>
+								<li><strong>Burp Suite:</strong> Used to scan the security of apps, web browsers and web applications. This tool discovers the application function, scans for security holes and launches custom attacks (Kiprin, 2021).</li>
+							</ol>
+
+							<h3 id="content" class="color6">Business impacts relating to the use of these tools and methods:</h3>
+							<ol>
+								<li>Scanning a host with <strong>Nmap</strong> can take just a fifth of a second, however this time allocation can quickly mount, depending on the number of hosts in an environment. This scan can however be run during office hours with very little to no impact on the network (Nmap.org 2020).</li>
+								<li>Applications on hosts have been known to crash when a <strong>Nessus Vulnerability</strong> scanner is taking place, therefore it is recommended to perform a scan of this nature on a production environment after standard working hours, or in an allocated change window. (Tenable.org 2019).</li>
+								<li><strong>Burp Suite</strong> should impose no impact on users as this type of scan has been programmed to find backdoors and run in an undetected manner (Ravello, 2016).</li>
+							</ol>
+
+							<h3 id="content" class="color6">Security challenges identified in our subject entities virtual landscape:</h3>
+							<ol>
+								<li>Web apps and staff not available on test days leaving systems vulnerable to failure</li>
+								<li>Lack of executive management support, boreoarctic approach hinders decision making</li>
+								<li>Lacking in organizational understanding and in the process of a risk assessment</li>
+								<li>Lack of communication and technical understanding (Hutchins, 2020)</li>
+							</ol>
+
+							<h3 id="content" class="color6">Limitations and assumptions of this assessment:</h3>
+							<p>Our team will need to have access to the systems and infrastructure for the entire duration of the security assessment. We will need to be provided with login account information and the credentials deemed necessary to use in the testing of devices to perform authenticated scans of devices and applications. We will require permission to connect testing laptops to all the entity’s networks. All the entities' personnel and business units are expected to cooperate and collaborate with the assessment process. A change freeze will need to be put in place pertaining to any infrastructure upgrades or changes for the duration of the security assessment period. Support must be provided when access to the environment is required outside of regular working hours (Rahalkar, 2018).</p>
+
+							<h3 id="content" class="color6">Timeline of assessment completion:</h3>
+							<table>
+								<thead>
+									<tr>
+										<th>Subject</th>
+										<th>Time [Hrs]</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>NMAP scan of environment</td>
+										<td>6</td>
+									</tr>
+									<tr>
+										<td>NESSUS scan after hours</td>
+										<td>8</td>
+									</tr>
+									<tr>
+										<td>BURP scan during office hours</td>
+										<td>6</td>
+									</tr>
+									<tr>
+										<td>Documentation and report generation</td>
+										<td>12</td>
+									</tr>
+									<tr>
+										<td>Project management</td>
+										<td>8</td>
+									</tr>
+									<tr>
+										<td><strong>Total</strong></td>
+										<td><strong>40</strong></td>
+									</tr>
+								</tbody>
+							</table>
+
+							<h3 id="content" class="color6">References:</h3>
+								<ul>
+									<li>Rahalkar, S. (2018). Network Vulnerability Assessment: Identify security loopholes in your network’s infrastructure. Packt Publishing.</li>
+									<li>CIS Controls CIS-RAM. (2021). Cisecurity.Org., Available from <span class="color6"><a href="https://learn.cisecurity.org/cis-ram">https://learn.cisecurity.org/cis-ram</a></span></li>
+									<li>ISO Methodology 2.0. (2013), Economic benefits of standards. Iso.Org. Available from <span class="color6"><a href="https://www.iso.org/publication/PUB100344.html">https://www.iso.org/publication/PUB100344.html</a></span></li>
+									<li>Kiprin, B. (2021, July 13). Performing A vulnerability assessment - the ultimate approach. Crashtest-Security.Com. Available from <span class="color6"><a href="https://crashtest-security.com/vulnerability-assessment-guide">https://crashtest-security.com/vulnerability-assessment-guide</a></span></li>
+									<li>Nmap.Org (2020) - Timing and Performance, Available from <span class="color6"><a href="https://nmap.org/book/man-performance.html">https://nmap.org/book/man-performance.html</a></span></li>
+									<li>Tenable.Com (2019) Basic Settings for Scans. Available from <span class="color6"><a href="https://docs.tenable.com/nessus/Content/BasicSettings.htm">https://docs.tenable.com/nessus/Content/BasicSettings.htm</a></span></li>
+									<li>Ravello (2016), Five most popular penetration testing tools, Available from <span class="color6"><a href="https://blogs.oracle.com/ravello/five-most-popular-penetration-testing-tools">https://blogs.oracle.com/ravello/five-most-popular-penetration-testing-tools</a></span></li>
+									<li>Hutchins, Greg (2020), Risk Assessment Challenges, Available from <span class="color6"><a href="https://accendoreliability.com/risk-assessment-challenges/">https://accendoreliability.com/risk-assessment-challenges/</a></span></li>
+									<li>Hutchins, Greg (2020), Risk Assessment Challenges, Available from <span class="color6"><a href="https://accendoreliability.com/risk-assessment-challenges/">https://accendoreliability.com/risk-assessment-challenges/</a></span></li>
+								</ul>
+
+							
+						</div>
+					</section>
+				</div>
+
+				<div id="main" class="alt">
+					<section>
+						<div class="inner">
+							<header class="major">
+								<p>Final Report</p>
+							</header>
+							<h3 class="color6 align-center">Executive Summary of a Network and Information Security Management (NISM) Assessment</h3>
+						</div>
+					</section>
+
+					<section id="one">
+						<div class="inner">
+							<p>We conducted a comprehensive assessment of the organisation's security environment through vulnerability scanning and penetration testing with a GDPR focused lens. The website scanned for vulnerabilities, is a e-healthcare business’s website which deals with private and sensitive information such as: personally, identifiable information, health information, health records, credit card information and so on. Detailed below is the methodology, findings and recommendations.</p>
+
+							<h3 id="content" class="color6">Section 1 - Methodology:</h3>
+							<p>A combination of GDPR and ISO was used for vulnerability identification.  ISO methodology involves implementing a risk assessment that can be frequently reviewed and enhanced to assess and correct, identifying the activities for which standards are used. ISO 27,001 is a standard outlining how any business should handle risk at every level (ISO.org, 2013).
+								<br><br> GDPR is a mandatory requirement for organizations that collect, store and process data that belong to EU Citizens regardless of where the organisation is based.  It is important to be aware of the key GDPR principles as it will identify vulnerabilities that could threaten the organisations data, it will enable the organization to adhere to GDPR requirements, avoiding future penalties and as an overall, the findings help the management to recognize and value data protection.
+								<br><br> Below are the basic principles of the GDPR which are known as the legal framework of GDPR:
+							</p>
+
+							<ol>
+								<li><strong>Data minimization:</strong> Store or process the minimum amount of personal data to what is only necessary.</li>
+								<li><strong>Limitation of purpose:</strong> Store or process the data type as minimum as possible to serve the purpose only.</li>
+								<li><strong>Accuracy:</strong> Keep personal information up to date and accurate.</li>
+								<li><strong>Confidentiality and Integrity:</strong> Security in storing personal data and in processing the data should be guaranteed. Systems, processes and personnel should be in place to guarantee avoidance of unlawful access, loss or breach of data.</li>
+								<li><strong>Transparency:</strong> Transparency in processing personal data.</li>
+								<li><strong>Accountability:</strong> Organizations storing personal data, should always be accountable to security breaches and must always keep compliant with the GDPR.</li>
+								<li><strong>Storage limitation:</strong> Limit the storage timeline of the data to what is only required, do not store personal data for longer than needed.</li>
+							</ol>
+
+							<h3 id="content" class="color6">Section 2 – GDPR regulation adherence assessment:</h3>
+							<h4>Governance and Accountability</h4>
+							<table>
+								<thead>
+									<tr>
+										<th>No</th>
+										<th>Article</th>
+										<th>Recital</th>
+										<th>Requirement</th>
+										<th>Yes</th>
+										<th>No</th>
+										<th>N/A</th>
+										<th>Auditor Notes</th>
+										<th>Review Date</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>1.1</td>
+										<td>24</td>
+										<td>78</td>
+										<td>Do you have a Data Protection Policy?</td>
+										<td></td>
+										<td>No</td>
+										<td></td>
+										<td>No information available through website scan</td>
+										<td>22/09/2021</td>
+									</tr>
+
+									<tr>
+										<td>1.2</td>
+										<td>24</td>
+										<td>78</td>
+										<td>Do you have a Clear Desk Policy?</td>
+										<td></td>
+										<td>No</td>
+										<td></td>
+										<td>No information available through website scan</td>
+										<td>22/09/2021</td>
+									</tr>
+
+									<tr>
+										<td>1.3</td>
+										<td></td>
+										<td></td>
+										<td>Do you have a Remote Access Policy?</td>
+										<td></td>
+										<td></td>
+										<td>N/A</td>
+										<td>N/A</td>
+										<td>22/09/2021</td>
+									</tr>
+
+									<tr>
+										<td>1.4</td>
+										<td>24</td>
+										<td>78</td>
+										<td>Do you have Data Breach Incident & Notification Policy & Procedures?</td>
+										<td></td>
+										<td>No</td>
+										<td></td>
+										<td>No information available through website scan</td>
+										<td>22/09/2021</td>
+									</tr>
+
+									<tr>
+										<td>1.5</td>
+										<td>24</td>
+										<td>78</td>
+										<td>Do you have Records Management & Data Retention Policies?</td>
+										<td></td>
+										<td>No</td>
+										<td></td>
+										<td>No information available through website scan</td>
+										<td>22/09/2021</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<h3 id="content" class="color6">Section 3 – Summary of technical findings:</h3>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-3"><span class="image fit"></span></div>
+									<div class="col-6"><span class="image fit"><img src="images/summary.png" alt="" /></span></div>
+									<div class="col-3"><span class="image fit"></span></div>
+								</div>
+							</div>
+							<i>The above chart summarises the result of scanning exercises and the key risks have been detailed in the table below with our recommendation for mitigation. The risk level assigned to the vulnerabilities below were based on likelihood of occurrence and likely impact (Descending order).</i>
+
+						<table>
+							<thead>
+								<tr>
+									<th>No</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Risk Level</th>
+									<th>Summary of Recommendation</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>NVT: MacOS X Finder '.DS_Store' Information Disclosure</td>
+									<td>MacOS X creates a hidden file '.DS_Store', in each directory that has been viewed with the 'Finder'. This file contains a list of the contents of the directory, giving an attacker information on the structure and contents of your website.</td>
+									<td>High</td>
+									<td>Block access to hidden files using a DNS over TLS to encrypt all data within the webservers configuration. This will ensure that you are abiding with the GDPR principle of Integrity and Confidentiality. This requires businesses to have appropriate security measures in place to protect personal data (ICO, 2019).
+										<br><br> Furthermore this can mitigate the risk of inadvertent information sharing which adheres to the ISO 27001 requirements highlighted in annex  A.12  which requires
+										<br><br> Organizations  to ensure that their
+										<br><br> information processing facilities are
+										<br><br> protected from malware, loss of data, and
+										<br><br> exploitation of technical vulnerabilities (ISMS Online, 2019).
+									</td>
+								</tr>
+
+								<tr>
+									<td>2</td>
+									<td>Vulnerable JS Library</td>
+									<td>This vulnerability is to do with current version 1.8.3 of the JS Library.</td>
+									<td>High</td>
+									<td>Versions need to be upgraded as soon as possible to ensure the security patches are the most up to date.  As part of their Cyber Essentials guidelines the NCSC (2020) recommend ensuring that websites are not vulnerable to known security issues for which fixes are
+										<br><br> available (National Cyber Security Centre, 2020). GDPR recommends taking a risk-based approach to creating appropriate security measures to protect systems (National Cyber Security Centre, 2018)., therefore implementing this recommendation would create a more compliant security environment.
+									</td>
+								</tr>
+
+								<tr>
+									<td>3</td>
+									<td>Options Header Not Set</td>
+									<td>The X frame header is not included in the HTTP response to protect against 'ClickJacking' attacks</td>
+									<td>Medium</td>
+									<td>This vulnerability could act as a “back door” for more impactful attacks, for example a CSRF attack.
+										<br><br> To resolve here are some potential solutions:
+										<br><br> If the page is to be framed only by pages on your server (e.g., it's part of a FRAMESET) then use SAMEORIGIN.
+										<br><br> If the page isn’t expected to be framed, you should use DENY. As ALLOW-FROM allows specific websites to frame the web page in supported web browsers (Cheat Sheet Series, 2021).
+									</td>
+								</tr>
+
+								<tr>
+									<td>4</td>
+									<td>Cross-Domain JavaScript Source File Inclusion</td>
+									<td>The page includes one or more script files from a third-party domain.</td>
+									<td>Medium</td>
+									<td>There is a risk of sensitive user information being leaked which could be a breach of the GDPR principle of confidentiality and integrity. The solution here is to ensure JavaScript source files are from  trusted sources that can't be controlled by end users of the application. Recommendation: When conducting audits of the security environment to include third party access in the scope as a preventative measure.</td>
+								</tr>
+
+								<tr>
+									<td>5</td>
+									<td>Absence of Anti-CSRF Tokens</td>
+									<td>No Anti-CSRF tokens were found in a HTML submission form.
+										<br><br> This makes the webpage susceptible to A cross-site request forgery.
+										<br><br> This is an attack that involves application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a website has for a user.
+									</td>
+									<td>Low</td>
+									<td>Recommendation:  The implementation of an anti-CRSF token. The organisation should  use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid. This will also strengthen the adherence to the GDPR privacy by design principle that suggests organisations should implement technical and measures, at the earliest stages (European Commission, n.d.).</td>
+								</tr>
+
+								<tr>
+									<td>7</td>
+									<td>NVT: TCP timestamps</td>
+									<td>The remote host implements TCP timestamps
+										It was detected that the host implements RFC1323/RFC7323.
+										<br><br>
+										The following timestamps were retrieved with a delay of 1 seconds in-between:
+										<br><br>
+										Packet 1: 1538891221
+										<br>
+										Packet 2: 1538892284	
+									</td>
+									<td>Low</td>
+									<td><strong>Recommendation:</strong> Disable the time stamps as currently the uptime of the remote host can sometimes be computed
+										<br><br>
+										To disable TCP timestamps on Linux, add the line 'net.ipv4.tcp_timestamps = 0' to /etc/sysctl.conf. Execute 'sysctl -p' to apply the settings at runtime.
+										<br><br>
+										To disable TCP timestamps on Windows, execute 'netsh int tcp set global timestamps=disabled' Starting with Windows Server 2008 and Vista, the timestamp cannot be completely disabled.
+									</td>
+								</tr>
+
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<h3 id="content" class="color6">Section 4 – Evaluation of website against GDPR and OWASP Standards:</h3>
+						<p>As this website was a health and wellbeing website designed to host the personal information of clients, it is imperative that it meets at least basic security standards. Globally there are many security standards that apply to websites, specific to the US for example is the Health Insurance Portability and Accountability Act (HIPAA) which focuses on personal health information. However the summary will focus on UK regulations. Two security Standards that can be considered here are the General Data Protection Regulation (GDPR) and the Open Web Application Security Project (OWASP). GDPR encompasses; data capture, tracking, permissions, privacy policies and website security (Taylor, 2018).
+							<br><br> A survey completed by McAfee Security, Beyond the General Data Protection Regulation (GDPR), mcafee.com/beyondGDPR asked businesses what  changes they were most concerned about impacting their businesses and reported (as seen below) that GDPR was indeed a top concern.
+						</p>
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-3"><span class="image fit"></span></div>
+								<div class="col-6"><span class="image fit"><img src="images/cahrt.png" alt="" /></span></div>
+								<div class="col-3"><span class="image fit"></span></div>
+							</div>
+						</div>
+
+						<p>These results provided significant understanding into individual and organizational approaches in the private healthcare sector toward residency of data, protection of data, and how prepared they are to change and adopt the regulatory requirements.
+							<br><br> In evaluating the website aforementioned, numerous tools including (but not limited to) ImmuniWeb and 2GDPR were used to scan for GDPR compliance.
+							<br><br> The results indicate that this website meets a majority of the requirements, there has for example, been put in place a sufficient level of cyber security using HTTPS encryption. There was no third-party tracking found and no third-party cookies were detected. However, the website lacks any cookie disclaimer, it is also missing a privacy policy and a listing for consent on the contact form. All three issues fall under the same Article – number 13; “GDPR requires a data controller to provide conspicuously visible notice to data subjects when collecting their personal data, including but not limited to data collected by web applications” (GDPR-info.eu, 2018). To meet GDPR compliance it is important to implement mitigations pertaining to the issues mentioned above. This can be done by ensuring the below after which it is important to rerun compliance tests and verify compliance
+						</p>
+
+						<ul>
+							<li>Develop a privacy policy that is clearly written, concise and easily accessible on the website (HostPapa, 2021).</li>
+							<li>Add a cookie disclaimer banner to the website which visitors would need to agree to, thus granting consent before using any cookies, except strictly necessary ones (Koch, 2021).</li>
+							<li>Add a tick-box to the contact form, which requires visitors to confirm they have read and agree to your terms and privacy policy (Koch, 2021).</li>
+						</ul>
+
+						<p>The second standard considered is the (OWASP) Top 10. It’s notoriously important to ensure mitigation coverage of common Web Based Vulnerabilities using the OWASP Top 10. This is a standard which represents the most critical security risks related to web applications and focuses on Application Security Verification Standards (ASVS). An OWASP Zed Attack Proxy (ZAP) scan was performed on the website as part of the evaluation’s penetration testing. As a result no critical alerts were generated, however there were some amber security exploits detected. One of the main exposures was the X-frame options header having not been configured, which laid bare a vulnerability to ClickJacking. The timestamp disclosure was also visible and should not have been. A site leaving such an exposure could remain vulnerable to exploitable design access
+							<br><br> patterns. The last main vulnerability exposed here was the Cache-Control Header Set not having been configured, this allows cache content to be displayed which is not secure practice.
+							<br><br> The above exposures need to be secured to ensure that OWASP standards are effectively incorporated. Mitigating measure can be put in place by
+						</p>
+
+						<ol>
+							<li>Have management confirm the timestamp disclosure data is not sensitive (Auger, 2010).</li>
+							<li>Ensure the cache-control HTTP header is set to ‘no-cache’, ‘no-store’, and ‘must-revalidate’ (Mozilla, 2021).</li>
+						</ol>
+
+						<p>In summary the evaluation shows that this website is not currently GDPR compliant and is potentially exploitable. However, by establishing some select mitigations the goal of compliance is achievable in a relatively short time frame. Ensuring one’s website remains compliant is vital to the cyber security function of any corporation.</p>
+					
+						<h3 id="content" class="color6">Section 5 – Final Conclusions:</h3>
+						<p>The EU has enforced General Data Protection Regulation (GDPR) since May 2018. This means all those collecting, storing, using or dealing with personal data of E. U. citizens in any means should be taking all of the GDPR standards into consideration.
+							<br><br> Mandating compliance requirements could be troublesome but in the long term, there is always recognition. Client’s and customer’s data privacy and safety always brings happy customers back to the business.
+							<br><br> Successfully completing a GDPR audit is the final step toward a GDPR compliance which every company that processes, stores or deals with European citizen’s data should be compliant with. For such organizations, it is also recommended to complete internal audits every 3 to 6 months to ensure continuity with the GDPR compliance.
+						</p>
+
+						<h3 id="content" class="color6">References:</h3>
+						<ul>
+							<li>Auger, R. (2010) Information Leakage, Project: WASC Threat Classification, Reference ID: WASC-13, Available from: <span class="color6"><a href="http://projects.webappsec.org/w/page/13246936/Information%20Leakage">http://projects.webappsec.org/w/page/13246936/Information%20Leakage</a></span></li>
+							<li>Cheat Sheet Series. (2021) Clickjacking Defense - OWASP Cheat Sheet Series.  Available from: <span class="color6"><a href="https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html</a></span></li>
+							<li>European Commission (n.d.). What does data protection “by design” and “by default” mean? [online] European Commission - European Commission. Available from: <span class="color6"><a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/obligations/what-does-data-protection-design-and-default-mean_en">https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/obligations/what-does-data-protection-design-and-default-mean_en</a></span></li>
+							<li>GDPR-info.eu. (2018) Art. 13 GDPR Information to be provided where personal data are collected from the data subject, Available from: <span class="color6"><a href="https://gdpr-info.eu/art-13-gdpr/">https://gdpr-info.eu/art-13-gdpr/</a></span></li>
+							<li>Hostpapa. (2021) Available from: <span class="color6"><a href="https://hostpapasupport.com/how-to-setup-privacy-policy-on-your-website-to-make-it-gdpr-compliant">https://hostpapasupport.com/how-to-setup-privacy-policy-on-your-website-to-make-it-gdpr-compliant</a></span></li>
+							<li>ICO (2019). Principle (f): Integrity and confidentiality (security). [online] Ico.org.uk. Available from: <span class="color6"><a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/integrity-and-confidentiality-security/">https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/integrity-and-confidentiality-security/</a></span></li>
+							<li>ISMS Online (2019). ISO 27001 Annex A Controls - Overview. [online] ISMS.online. Available at: <span class="color6"><a href="https://www.isms.online/iso-27001/annex-a-controls/">https://www.isms.online/iso-27001/annex-a-controls/</a></span></li>
+							<li>Koch, R.  (2021) GDPR.EU, Cookies, the GDPR, and the ePrivacy Directive. Available from: <span class="color6"><a href="https://gdpr.eu/cookies/">https://gdpr.eu/cookies/</a></span></li>
+							<li>Mozilla.org (2021), X-Frame-Options, Available from: <span class="color6"><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></span></li>
+							<li>National Cyber Security Centre. (2018) GDPR security outcomes. [online] www.ncsc.gov.uk. Available from: <span class="color6"><a href="https://www.ncsc.gov.uk/guidance/gdpr-security-outcomes">https://www.ncsc.gov.uk/guidance/gdpr-security-outcomes</a></span></li>
+							<li>National Cyber Security Centre. (2020) Cyber Essentials: Requirements for IT infrastructure v2.1 Cyber Essentials: Requirements for IT infrastructure. [online] Available at: <span class="color6"><a href="https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-2-1.pdf">https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-2-1.pdf</a></span></li>
+							<li>Taylor, F. (2018)  Available from <span class="color6"><a href="https://www.liquidlight.co.uk/blog/4-steps-to-making-your-website-gdpr-compliant/?L=1">https://www.liquidlight.co.uk/blog/4-steps-to-making-your-website-gdpr-compliant/?L=1</a></span></li>
+							<li>The EU GDPR Institute, GDPR Audit Approach. (2020)  Available from: <span class="color6"><a href="https://www.eugdpr.institute/gdpr-audit-approach/">https://www.eugdpr.institute/gdpr-audit-approach/</a></span></li>
+							<li>Violino, B. (2019) How to conduct a proper GDPR audit: 4 key steps. Available from: <span class="color6"><a href="https://wwwidginsiderpro.com/article/3290938/how-to-conduct-a-proper-gdpr-audit-4-key-steps.html">https://wwwidginsiderpro.com/article/3290938/how-to-conduct-a-proper-gdpr-audit-4-key-steps.html</a></span></li>
+						</ul>
+
+
+
+					</div>
+					</section>
+				</div>
+
+				<div id="main" class="alt">
+					<section>
+						<div class="inner">
+							<header class="major">
+								<p>Reflective piece and conclusion</p>
+							</header>
+							<h3 class="color6 align-center">Reflective Log</h3>
+						</div>
+					</section>
+
+					<section id="one">
+						<div class="inner">
+								<p>I had mixed expectations regarding this Networking and Information Security Management module. I expected that learning about network security would be challenging. Prior to the module, my only knowledge of the network layer was through my foundational cloud infrastructure learning where I understood that networking was one of the core layers (Microsoft Azure, 2019). However, concepts such as the OSI model of physical computing were unknown to me before undertaking this module. Also, I knew that a key part of this course would involve learning about risk assessments and that topic of learning was more comfortable with me due to my work experiences. However, I was most looking forward to learning about the practical methods behind vulnerability and penetration testing as prior to the module I had only had exposure to theoretical approaches. Finally, knowing that an E-Portfolio submission was going to be one of Compulsory outputs for this module made me take a reflective approach whilst completing each unit.
+									<br><br> During this module we were tasked with 2 main group outputs. The first being a development team project. We had to create a website to be tested for vulnerability weaknesses by another group. We decided to delegate the task based on strengths so those with the most experience with web development took responsibility for this task. I felt like this was a good approach because it enabled us to get off to a strong start which was supported by Fleming, (2009) who suggests that delegation should be based on an individual’s unique skill set and expertise. The second part of this task involved conducting basic vulnerability scans and deciding which tools would be most appropriate to utilise. The final part was to create a report that summarised the work that we had conducted so far and highlight the potential benefits for the client. This was a beneficial exercise as report writing is a key skill in a practical working environment., We learned how to convey potential challenges and impacts in a manner that was professional and informative. Overall, for the first project I believe the team worked effectively as we managed to meet all deadlines however there was room for improvement when it came to the organisation, we took a siloed approach with each member being delegated at specific task, but it would be beneficial for learning if all members have some involvement in each task. This mirrors a “cross training” approach that some companies take with the aim of developing a workforce that have well rounded skill sets and consequently will be able to understand objectives that aren’t necessarily part of their immediate area (Mosca, Buzza and Abraham, 2007).
+									<br><br> The next task was to create an executive summary which would pull together our findings from the vulnerability scanning as well as our well researched approach to mitigating these weaknesses and providing beneficial recommendations to the client. This challenged us to think more critically because we had to tailor our report to our client specific business priority which at this point was compliance with the GDPR regulation. I believe that this is an accurate reflection of challenges that we may have to address in a real working environment as businesses are often subject to a variety of statutory regulations so knowing how to factor these points in when creating solutions is beneficial. Furthermore, we also had the chance to develop our skills of converting technical data into palatable information. McBride, (2018) says that the majority of stakeholders need an effective and understandable translation of our work, so they are well informed, therefore this is a skill that is important to have when dealing with stakeholders who have varied technical knowledge. Regarding the team dynamic, I believe the second project was more cohesive as we had already had experience working with each other and had a better idea of each individual’s skill sets. Furthermore, I pushed myself outside my comfort zone to take a more organisational role and I believe that this benefited the team.  Although I was able to delegate work and part of the report to each individual, I also made it a point to ensure that we all fed back to each other and as having oversight of the whole project led to more cohesion and better understanding.
+									<br><br> The outcome of these exercises were firstly, a very detailed executive report which all team members had an equal contribution towards. Research shows that it is important for each member to contribute equally as students do not view group assignments as fair if everyone is rewarded equally for unequal levels of contribution (Freeman and McKenzie, 2002).  From working as part of the developmental team for this project I learned that it is important for each team member to contribute something to final outputs as this creates a sense of ownership towards the work. Furthermore, although it is beneficial for individuals to take on tasks suited to their skill sets, one thing that I would do is challenge myself to take on tasks that would provide a steep learning curve such as the coding pieces where my technical skills were very limited. pushing yourself outside your comfort zone when it comes to academic tasks has been proven to be rewarding as even if mistakes are made it ultimately is still on opportunity for learning and reflection (Brenner, 2015),
+									<br><br> To conclude this module matched my expectations as I got to learn about the history of networking which provided a great background when looking at the tools available today and assessing which would be appropriate. As a team I believe we've developed well from our design proposal in unit 6 to our final report in unit 11 as we built upon the initial scope and made it more specific to our clients and their needs. We had to take into consideration our clients business priorities as well as the approaches that would create the most accurate and relevant output when it comes to network analysis thus highlighting some of the legal and professional challenges that information security professionals must consider when conducting their work.
+								</p>
+
+							<h3 id="content" class="color6">References:</h3>
+							<ul>
+								<li>Brenner, A. (2015). 5 Benefits of Stepping Outside Your Comfort Zone. [online] Psychology Today. Available at: <span class="color6"><a href="https://www.psychologytoday.com/us/blog/in-flux/201512/5-benefits-stepping-outside-your-comfort-zone">https://www.psychologytoday.com/us/blog/in-flux/201512/5-benefits-stepping-outside-your-comfort-zone</a></span></li>
+								<li>Fleming, R. (2009). The Role of Effective Delegation in Professional and Organizational Success. Business Renaissance Quarterly, 4(3), pp.153–161</li>
+								<li>Freeman, M. and McKenzie, J. (2002). SPARK, a confidential web–based template for self and peer assessment of student teamwork: benefits of evaluating across different subjects. British Journal of Educational Technology, 33(5), pp.551–569.</li>
+								<li>McBride, M. (2018). Translating the unintelligible. [online] CIO. Available at: <span class="color6"><a href="https://www.cio.com/article/3281870/translating-the-unintelligible.html">https://www.cio.com/article/3281870/translating-the-unintelligible.html</a></span></li>
+								<li>Microsoft Azure (2019). Introduction to Azure security. [online] Microsoft.com. Available at: <span class="color6"><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/overview">https://docs.microsoft.com/en-us/azure/security/fundamentals/overview</a></span></li>
+								<li>Mosca, J.B., Buzza, J. and Abraham, S. (2007). The Essentials Of Cross Training: The Benefits Of Delegation And The Role Of Education. Journal of Business Case Studies (JBCS), 3(3), pp.49–54.</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">akigbu@essex.ac.uk</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(+44) 745X XXXXXX</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
